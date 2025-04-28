@@ -1,43 +1,21 @@
-Overview
 
-A Compose-based Android app that:
+---
 
-Scans nearby Wi‑Fi APs 100× per user-selected location (three tabs).
+## 🚀 Build & Run
 
-Shows each AP’s RSSI range (min..max).
+1. Clone the repository and open it in **Android Studio**
+2. Grant all requested permissions on launch
+3. Switch to a **Location tab**, tap **Scan**, and view results
+4. Use the **Comparison tab** for analysis across locations
 
-Expandable 10×10 sample matrix per AP.
+---
 
-Comparison tab displays side-by-side RSSI ranges across locations.
+## 📸 Screenshots
 
-Real‑time linear progress bar during scans.
+*(Add screenshots here if available)*
 
-Prerequisites
+---
 
-Android Studio
+## 📄 License
 
-Min SDK 24, Target SDK 35
-
-Runtime permissions:
-
-ACCESS_FINE_LOCATION
-
-ACCESS_WIFI_STATE
-
-CHANGE_WIFI_STATE
-
-Project Structure
-
-/app
-  ├─ src/main
-  │    ├─ AndroidManifest.xml
-  │    ├─ java/.../MainActivity.kt  # Compose UI + scan logic
-
-Build & Run
-
-Clone the repo and open in Android Studio.
-
-Grant requested permissions on launch.
-
-Switch to a Location tab, tap Scan, and view results; use Comparison for analysis.
-
+*(Specify your license here, e.g., MIT, Apache 2.0, etc.)*
