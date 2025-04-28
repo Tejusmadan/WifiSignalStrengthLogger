@@ -31,3 +31,17 @@ A **Compose-based Android app** for scanning nearby Wi‑Fi Access Points (APs) 
 
 ## 📁 Project Structure
 
+/app
+  ├─ src/main
+  │    ├─ AndroidManifest.xml
+  │    ├─ java/.../MainActivity.kt  # Compose UI + scan logic
+
+Build & Run
+
+Clone the repo and open in Android Studio.
+
+Grant requested permissions on launch.
+
+Switch to a Location tab, tap Scan, and view results; use Comparison for analysis.
+ format this to be pasted into github
+
