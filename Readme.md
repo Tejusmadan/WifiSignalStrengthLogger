@@ -43,5 +43,3 @@ Clone the repo and open in Android Studio.
 Grant requested permissions on launch.
 
 Switch to a Location tab, tap Scan, and view results; use Comparison for analysis.
- format this to be pasted into github
-
